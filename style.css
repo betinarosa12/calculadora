@@ -43,7 +43,7 @@ body {
 }
 
 button:active {
-    opacity: 0.9;
+    opacity: 10;
 }
 
 .resultado {

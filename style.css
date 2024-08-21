@@ -42,10 +42,6 @@ body {
     width: 104px;
 }
 
-button:active {
-    opacity: 0.1;
-}
-
 .resultado {
     padding: 10px;
     background-color: white;

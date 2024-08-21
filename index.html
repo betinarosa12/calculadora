@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bloco">
+      <div class="calculadora">
+        <p id="resultado" class="resultado"></p>
+        <div class="primeira-linha">
+          <button onclick="limpar()" class="botao botao-cinza">C</button>
+          <button onclick="apagar()" class="botao botao-laranja"><</button>
+          <button onclick="clicado('/')" class="botao botao-laranja">/</button>
+          <button onclick="clicado('*')" class="botao botao-laranja">*</button>
+          
+        </div>
+        <div class="segunda-linha">
+          <button onclick="clicado('7')" class="botao">7</button>
+          <button onclick="clicado('8')" class="botao">8</button>
+          <button onclick="clicado('9')" class="botao">9</button>
+          <button onclick="clicado('-')" class="botao botao-laranja">-</button>
+          
+        </div>
+        <div class="terceira-linha">
+          <button onclick="clicado('4')" class="botao">4</button>
+          <button onclick="clicado('5')" class="botao">5</button>
+          <button onclick="clicado('6')" class="botao">6</button>
+          <button onclick="clicado('+')" class="botao botao-laranja">+</button>
+          
+        </div>
+        <div class="quarta-linha">
+          <button onclick="clicado('1')" class="botao">1</button>
+          <button onclick="clicado('2')" class="botao">2</button>
+          <button onclick="clicado('3')" class="botao">3</button>
+          <button onclick="calcular()" class="botao botao-laranja">=</button>
+        </div>
+        <div class="quarta-linha">
+          <button onclick="clicado('0')" class="botao botao-maior-0">0</button>
+          <button onclick="clicado('.')" class="botao">.</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="java.js"></script>
+</html>
